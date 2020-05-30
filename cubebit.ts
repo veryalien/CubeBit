@@ -208,7 +208,7 @@ namespace cubebit {
     }
 
     /**
-     * Get the colour of a given pixel.
+     * Get the colour of a given pixel
      * @param ledId location of the pixel in the cube from 0
      */
     //% blockId="GetPixelColor" block="get pixel at%ledId"
