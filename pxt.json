@@ -1,11 +1,11 @@
 {
     "name": "CubeBit",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "description": "Microsoft MakeCode package for 4tronix CubeBit",
     "license": "MIT",
     "dependencies": {
         "core": "*",
-        "fireled": "github:veryalien/FireLedsBase#0.1.5"
+        "fireled": "github:veryalien/FireLedsBase#0.1.6"
     },
     "files": [
         "README.md",
