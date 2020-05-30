@@ -208,6 +208,17 @@ namespace cubebit {
     }
 
     /**
+     * Get the colour of a given pixel.
+     * @param ledId location of the pixel in the cube from 0
+     */
+    //% blockId="GetPixelColor" block="get pixel at%ledId"
+    //% weight=71
+    export function getPixelColor(ledId: number)
+    {
+        return fire(DigitalPin.P0,3).getPixel(ledId);
+    }
+
+    /**
       * Sets a plane of pixels to given colour
       * @param plane number of plane from 0 to size of cube
       * @param axis axis (xy,xz,yz) of the plane
