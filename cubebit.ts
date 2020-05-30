@@ -54,7 +54,7 @@ enum CBColors
  * Custom blocks
  */
 //% weight=10 color=#e7660b icon="\uf247"
-namespace cubebit {
+namespace mycubebit {
 
     let nCube: fireled.Band;
     let btEnabled = false;
