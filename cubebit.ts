@@ -273,6 +273,17 @@ namespace cubebit {
         updateLEDs()
     }
 
+    /**
+     * Rotate LEDs backward.
+     */
+    //% blockId="cbLedRotateLeft" block="rotate pixels left"
+    //% weight=30
+    export function ledRotateLeft()
+    {
+        fire(DigitalPin.P0,3).rotateBandLeft();
+        updateLEDs()
+    }
+
 // Advanced blocks
 
     /**
@@ -322,6 +333,18 @@ namespace cubebit {
     export function ledShift(): void
     {
         fire(DigitalPin.P0,3).shiftBand();
+        updateLEDs();
+    }
+
+    /**
+     * Shift LEDs backward and clear with zeros.
+     */
+    //% blockId="cbLedShift" block="shift pixels Left"
+    //% weight=70
+    //% advanced=true
+    export function ledShiftLeft(): void
+    {
+        fire(DigitalPin.P0,3).shiftBandLeft();
         updateLEDs();
     }
 
