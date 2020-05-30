@@ -54,7 +54,7 @@ enum CBColors
  * Custom blocks
  */
 //% weight=10 color=#e7660b icon="\uf247"
-namespace mycubebit {
+namespace cubebit {
 
     let nCube: fireled.Band;
     let btEnabled = false;
@@ -339,7 +339,7 @@ namespace mycubebit {
     /**
      * Shift LEDs backward and clear with zeros.
      */
-    //% blockId="cbLedShiftLeft" block="shift pixels Left"
+    //% blockId="cbsheep" block="sheepy"
     //% weight=71
     //% advanced=true
     export function ledShiftLeft(): void
